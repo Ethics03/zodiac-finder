@@ -1,0 +1,57 @@
+"""
+Knowing the zodiac
+ use integer input when dealing with if statements upon it
+"""
+birth  = int(raw_input("Enter your birth date: "))
+month = str(raw_input("Enter your birth month(short form eg.Jan) : "))
+
+if birth >= 20 and  birth < 31 and month ==  "Jan":
+    print("You are an (Aquarius)")
+elif birth  >=  1 and birth <= 19 and month == "Feb":
+    print("You are an (Aquarius)")
+elif birth >= 20 and birth <= 31 and month ==  "Feb":
+    print("You are a Pisces")
+elif birth >= 1 and birth <= 20 and month == "Mar":
+    print("You are a Pisces")
+elif birth >= 21 and birth <= 31 and month  == "Mar":
+    print("You are an (Aries)")
+elif birth >= 1 and birth <= 20 and month == "Apr":
+    print("You are an (Aries)")
+elif birth >= 21 and  birth <= 30 and month == "Apr":
+    print("Your are a (Taurus)")
+elif birth >= 1 and birth <= 20 and month == "May":
+    print("You are a (Taurus)")
+elif birth >= 21 and birth < 31 and  month == "May":
+    print("You are a (Gemini)")
+elif birth >= 1 and birth <= 20 and month == "Jun":
+    print("You are a (Gemini)")
+elif birth >= 21 and birth <= 30 and month == "Jun":
+    print("You are a (Cancer)")
+elif birth >= 1 and birth <= 22 and month == "Jul":
+    print("You are a (Cancer)")
+elif birth >= 23 and birth <= 31 and month == "Jul":
+    print("You are a (Leo)")
+elif birth >= 1 and birth <= 23 and month == "Aug":
+    print("You are a (Leo)")
+elif birth >= 23 and birth <= 31 and month == "Aug":
+    print("You are a (Virgo)")
+elif birth >= 1 and birth <= 22 and month == "Sep":
+    print("You are a (Virgo)")
+elif birth >= 23 and birth <= 30 and month == "Sep":
+    print("You are a (Libra)")
+elif birth >= 1 and birth <= 22 and month == "Oct":
+    print("You are a (Libra)")
+elif birth >= 23 and birth <= 31 and month == "Oct":
+    print("You are a (Scorpio)")
+elif birth >=  1 and birth <= 22 and month == "Nov":
+    print("You are a (Scorpio)")
+elif birth >= 23 and birth <= 30 and month == "Nov":
+    print("You are a (Sagittarius)")
+elif birth >= 1 and birth <= 21 and month == "Dec":
+    print("You are a (Sagittarius)")
+elif birth >= 22 and birth <= 31 and month == "Dec":
+    print("You are a (Capricorn)")
+elif birth <= 1 and birth <= 19 and month == "Jan":
+    print("You are a (Capricorn)")
+else:
+    print("Invalid input")
